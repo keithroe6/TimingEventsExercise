@@ -38,13 +38,13 @@ btn.addEventListener('click', () => {
 // 4.
 const countdown = document.querySelector('#countdown')
 function startTimer(duration, display){
-    let timer = duration,minutes,secomds
+    let timer = duration,minutes,seconds
     minutes = parseInt(timer/60, 10)
     seconds = parseInt(timer%60, 10)
 }
 
 const div3 = document.querySelector('#countdown')
-const p3 = document.querySelector('p')
+const p3 = document.createElement('p')
 let num = 120
 const count2 = setInterval(() => {
     if (num > 0){
